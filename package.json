@@ -1,0 +1,30 @@
+{
+  "name": "staticdevelopmentdocs",
+  "version": "1.0.0",
+  "description": "it is a statci development documents",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changYong1953/staticDevelopmentDocs.git"
+  },
+  "keywords": [
+    "vuepress",
+    "markdown"
+  ],
+  "author": "yesir_mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changYong1953/staticDevelopmentDocs/issues"
+  },
+  "homepage": "https://github.com/changYong1953/staticDevelopmentDocs#readme",
+  "dependencies": {
+    "vue-template-compiler": "^2.7.14"
+  }
+}
