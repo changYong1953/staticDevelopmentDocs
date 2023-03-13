@@ -26,6 +26,7 @@ module.exports = {
         items: [
           {text: 'GIT', link: '/engine/git_yesir_mao'},
           {text: 'WEBPACK', link: '/engine/webpack_yesir_mao'},
+          {text: 'TYPESCRIPT', link: '/engine/typescript_yesir_mao'},
         ],
       },
       {
@@ -55,6 +56,7 @@ module.exports = {
           {text: 'TypeScript', link: 'https://www.tslang.cn/docs/home.html'},
           {text: 'Echarts', link: 'https://echarts.apache.org/zh/index.html'},
           {text: 'LeetCode', link: 'https://leetcode.cn/'},
+          {text: '前端面试汇总（参考）', link: 'https://www.yuque.com/cuggz/interview'},
           {
             text: 'VUE',
             items: [
@@ -139,6 +141,13 @@ module.exports = {
         collapsable: true,
         sidebarDepth: 2,
         children: ['/engine/webpack_yesir_mao'],
+      },
+      {
+        title: 'TypeScript',
+        path: '/engine/typescript_yesir_mao',
+        collapsable: true,
+        sidebarDepth: 2,
+        children: ['/engine/typescript_yesir_mao'],
       },
       {
         title: 'Git',
